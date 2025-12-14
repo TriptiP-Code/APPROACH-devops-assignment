@@ -6,21 +6,14 @@ The objective of this assignment was to design and implement an end-to-end DevOp
 
 The application logic is simple and a basic backend code is being used, because the primary focus is on DevOps principles rather than application development.
 
----
 
-## Strategy
 
-The overall approach is divided into following parts :
+## Github repositories link which are used in this project
 
-1. Selection of ready-made open-source application
-2. Deploy frontend using Vercel
-3. Provision backend infrastructure using Terraform
-4. Containerize and deploy backend services
-5. Implement CI/CD automation
-6. Add monitoring, logging, and dashboards
-7. Apply best practices for security and state management
+1.Front end repo : https://github.com/TriptiP-Code/material-dashboard-react
+2.Backend repo : https://github.com/TriptiP-Code/backend
+3.Terraform repo : https://github.com/TriptiP-Code/terraform-devops-assignment
 
----
 
 ## Application Selection
 
