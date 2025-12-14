@@ -11,7 +11,9 @@ The application logic is simple and a basic backend code is being used, because 
 ## Github repositories link which are used in this project
 
 1.Front end repo : https://github.com/TriptiP-Code/material-dashboard-react
+
 2.Backend repo : https://github.com/TriptiP-Code/backend
+
 3.Terraform repo : https://github.com/TriptiP-Code/terraform-devops-assignment
 
 
@@ -19,7 +21,6 @@ The application logic is simple and a basic backend code is being used, because 
 
 A ready-made Node.js backend application using PostgreSQL was chosen to be choosen to  avoid spending time on application logic ,but to be honest I found it very difficult to choose any application from internet and start working on it. So I created a very simple backend application with postgress and started working on it.
 
----
 
 ## Frontend Deployment by Vercel
 
@@ -29,7 +30,6 @@ I choose front code from internet , fork it and then deployed it in Vercel.
 Github front-end code : https://github.com/TriptiP-Code/material-dashboard-react
 Front end url: https://material-dashboard-react-iota.vercel.app/dashboard
 
----
 
 ## Infrastructure with Terraform
 
@@ -58,7 +58,6 @@ Terraform was used as the Infrastructure as Code (IaC) tool to create AWS resour
 * Backend EC2 placed in public subnet behind ALB
 * RDS placed in private subnet for security
 
----
 
 ## State Management
 
@@ -70,7 +69,6 @@ Remote state management implemented using S3
 
 State locking is enabled, ensuring infrastructure consistency.
 
----
 
 ## Containerization Strategy
 
@@ -80,7 +78,6 @@ The backend application is containerized using Docker.
 * Image pushed to Docker hub registry
 * SSH to ec2 instance and run the application
 
----
 
 ## Deployment Automation (CI/CD)
 
@@ -109,10 +106,7 @@ GitHub Actions is used to implement CI/CD pipeline.
 
 * Application up and running , we can access app through Load Balancer
   <img width="1916" height="1017" alt="image" src="https://github.com/user-attachments/assets/42d2ca18-4cc3-4aca-9e4d-fd875982dc36" />
-
-
-   
----
+  
 
 ## Monitoring and Logging
 
@@ -139,7 +133,6 @@ Two dashboards were created:
 * EC2 system logs
 * Application container logs
 
----
 
 ## Security Considerations
 
@@ -150,8 +143,6 @@ Security best practices are followed:
 * Sensitive values passed via GitHub Secrets
 * Public access limited via ALB
 
----
-
 ## Cost Optimization
 
 Cost was kept minimal by:
@@ -159,7 +150,6 @@ Cost was kept minimal by:
 * Using t3.micro EC2 instances
 * Using free-tier eligible RDS instance
 
----
 
 ## Summary
 
